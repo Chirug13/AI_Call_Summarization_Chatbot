@@ -18,7 +18,7 @@ An AI-powered voice assistant that transcribes, analyzes, and summarizes custome
 ---
 <img width="3828" height="2150" alt="image" src="https://github.com/user-attachments/assets/b8988889-66b0-4068-beee-8f38f07bc1cd" />
 
-## 🧠 Models & Tools Used
+## Models & Tools Used
 
 | Component           | Model/Tool              | Purpose                              |
 |--------------------|--------------------------|--------------------------------------|
@@ -30,7 +30,7 @@ An AI-powered voice assistant that transcribes, analyzes, and summarizes custome
 
 ---
 
-## 💼 Benefits for Banking & Enterprise
+## Benefits for Banking & Enterprise
 
 - **Improves call center efficiency** by reducing manual note-taking
 - **AI-driven sentiment analysis** helps flag negative customer experiences
@@ -40,7 +40,7 @@ An AI-powered voice assistant that transcribes, analyzes, and summarizes custome
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 AI_Call_Summarization_Chatbot/
 ├── app.py / main.py # Backend (FastAPI / Flask)
@@ -51,7 +51,7 @@ AI_Call_Summarization_Chatbot/
 ├── requirements.txt
 ├── README.md
 
-yaml
+
 Copy
 Edit
 
