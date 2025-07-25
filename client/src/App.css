@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  @apply m-0 p-0 font-sans bg-gradient-to-br from-gray-900 to-gray-800 text-white h-screen overflow-hidden;
+}
+
+.app {
+  @apply flex h-screen w-screen;
+}
+
+/* Panels */
+.panel {
+  @apply bg-gray-800 rounded-2xl shadow-md p-6 flex flex-col;
+}
+
+.left-panel {
+  @apply w-1/5 panel items-center justify-between space-y-3;
+}
+
+.center-panel {
+  @apply w-3/5 panel mx-2;
+}
+
+.right-panel {
+  @apply w-1/5 panel;
+}
+
+/* Chat */
+.chat-title {
+  @apply text-center text-4xl font-bold mb-4 text-white;
+}
+
+.chat-window {
+  @apply flex-1 overflow-y-auto space-y-5 pr-2;
+}
+
+.chat-message {
+  @apply flex items-start space-x-4 text-xl leading-relaxed;
+}
+
+.chat-message.user {
+  @apply justify-end text-yellow-300 font-semibold;
+}
+
+.chat-message.bot {
+  @apply justify-start text-teal-300 font-semibold;
+}
+
+.chat-input {
+  @apply flex border-t border-gray-600 pt-4 mt-4;
+}
+
+.chat-input input {
+  @apply flex-1 bg-gray-700 text-white p-4 text-lg rounded-xl focus:outline-none;
+}
+
+/* Buttons */
+.action-button {
+  @apply w-full bg-blue-700 hover:bg-red-500 text-white py-1 px-6 rounded-xl flex flex-col items-center transition-all duration-300;
+}
+
+.action-button svg {
+  @apply text-4xl mb-2;
+}
+
+/* Waveform & Transcription */
+.waveform-preview {
+  @apply h-20 mb-4 border border-gray-500 rounded-lg flex items-center justify-center text-gray-400 italic text-lg;
+}
+
+.transcription-box {
+  @apply flex flex-col flex-grow mt-4;
+}
+
+.scrollable-box {
+  @apply bg-gray-700 text-white rounded-lg p-4 border border-gray-600 resize-y overflow-auto text-lg;
+  height: 250px;
+  min-height: 850px;
+}
